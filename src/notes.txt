@@ -1,0 +1,43 @@
+const links = [
+        {
+            id: 1,
+            child: (
+                <>
+                    Linkedin<FaLinkedin size={50} className="mx-2 " />
+                </>
+            ),
+            href: 'https://linkedin.com',
+            style: 'rounded-tr-md'
+        },
+        {
+            id: 2,
+            child: (
+                <>
+                    Github<FaGithub size={50} className="mx-2 " />
+                </>
+            ),
+            href: 'https://github.com/prdp1',
+            style: 'rounded-tr-md'
+        },
+        {
+            id: 3,
+            child: (
+                <>
+                    E-Mail<MdEmail size={50} className="mx-2 " />
+                </>
+            ),
+            href: 'https://linkedin.com',
+            style: 'rounded-tr-md'
+        },
+        {
+            id: 4,
+            child: (
+                <>
+                    Resume<bsFillPersonLinesFill size={30} className="mx-2 " />
+                </>
+            ),
+            href: '/Pradeep Ghadei -- Resume.pdf',
+            style: 'rounded-br-md',
+            download: true,
+        },
+    ]
